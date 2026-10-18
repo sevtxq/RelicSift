@@ -1,0 +1,163 @@
+{
+  "source": "reliquary_archiver",
+  "build": "0.19.0",
+  "version": 4,
+  "metadata": {
+    "synthetic": true,
+    "note": "Fictional public example. No account data or real relic IDs."
+  },
+  "relics": [
+    {
+      "_uid": "synthetic-locked",
+      "set_id": "101",
+      "name": "Passerby of Wandering Cloud",
+      "slot": "Body",
+      "rarity": 5,
+      "level": 0,
+      "mainstat": "ATK",
+      "substats": [
+        {
+          "key": "HP",
+          "value": 33.87004,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "ATK",
+          "value": 16.935019,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "DEF",
+          "value": 16.935019,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "Effect Hit Rate_",
+          "value": 3.4560002,
+          "count": 1,
+          "step": 0
+        }
+      ],
+      "location": "",
+      "lock": true,
+      "discard": false
+    },
+    {
+      "_uid": "synthetic-hp-crit",
+      "set_id": "113",
+      "name": "Longevous Disciple",
+      "slot": "Head",
+      "rarity": 5,
+      "level": 0,
+      "mainstat": "HP",
+      "substats": [
+        {
+          "key": "CRIT Rate_",
+          "value": 2.592,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "CRIT DMG_",
+          "value": 5.8320000400000005,
+          "count": 1,
+          "step": 1
+        },
+        {
+          "key": "HP_",
+          "value": 4.3200002600000005,
+          "count": 1,
+          "step": 2
+        },
+        {
+          "key": "DEF",
+          "value": 16.935019,
+          "count": 1,
+          "step": 0
+        }
+      ],
+      "location": "",
+      "lock": false,
+      "discard": false
+    },
+    {
+      "_uid": "synthetic-unknown-set",
+      "set_id": "synthetic-unknown",
+      "name": "Synthetic unknown set",
+      "slot": "Body",
+      "rarity": 5,
+      "level": 0,
+      "mainstat": "ATK",
+      "substats": [
+        {
+          "key": "HP",
+          "value": 33.87004,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "ATK",
+          "value": 16.935019,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "DEF",
+          "value": 16.935019,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "Effect Hit Rate_",
+          "value": 3.4560002,
+          "count": 1,
+          "step": 0
+        }
+      ],
+      "location": "",
+      "lock": false,
+      "discard": false
+    },
+    {
+      "_uid": "synthetic-potential",
+      "set_id": "101",
+      "name": "Passerby of Wandering Cloud",
+      "slot": "Body",
+      "rarity": 5,
+      "level": 0,
+      "mainstat": "ATK",
+      "substats": [
+        {
+          "key": "HP",
+          "value": 33.87004,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "ATK",
+          "value": 16.935019,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "DEF",
+          "value": 16.935019,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "key": "Effect Hit Rate_",
+          "value": 3.4560002,
+          "count": 1,
+          "step": 0
+        }
+      ],
+      "location": "",
+      "lock": false,
+      "discard": false
+    }
+  ]
+}

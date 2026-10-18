@@ -1,0 +1,21 @@
+name: Feature request
+description: Describe a focused use case or improvement.
+title: "[Feature] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Desired behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sources or examples
+      description: New set or upgrade rules need verifiable sources and counterexamples.

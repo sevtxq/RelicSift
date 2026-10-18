@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a problem with a synthetic minimal reproduction.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not upload real inventories, analysis exports, account IDs or credentials."
+  - type: input
+    id: version
+    attributes:
+      label: RelicSift version and Windows version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: synthetic
+    attributes:
+      label: Synthetic minimal reproduction
+      description: Fictional JSON or anonymized steps. Never attach a full account export.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: This report contains no real account data or credentials.
+          required: true

@@ -1,0 +1,6 @@
+[
+  {"uid":"locked","category":"keep","decisive_rule":"K001","synergies":[]},
+  {"uid":"hp-crit","category":"keep","decisive_rule":"K003","synergies":["Dual CRIT","HP/Crit"]},
+  {"uid":"unknown","category":"potentially_useful","decisive_rule":"P002","synergies":[]},
+  {"uid":"fallback","category":"potentially_useful","decisive_rule":"P999","synergies":[]}
+]

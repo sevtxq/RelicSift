@@ -1,0 +1,40 @@
+# Rust build output and local packages
+/target/
+/dist/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.tmp
+*.log
+
+# Local development documentation
+/docs/
+
+# Optional local imports: keep only the empty directory marker
+/archiver-exports/*
+!/archiver-exports/.gitkeep
+
+# Private account data and exports
+/tests/private/
+archive_output*
+*.relicsift.json
+*.pcap
+*.pcapng
+*.etl
+.env
+.env.*
+!.env.example
+
+# JSON is private by default; only reviewed synthetic/public files are tracked
+*.json
+!examples/config.json
+!examples/inventory.synthetic.json
+!tests/fixtures/decisions.golden.json
+
+# Editor and OS state
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

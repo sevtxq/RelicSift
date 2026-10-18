@@ -1,0 +1,52 @@
+[package]
+name = "relicsift"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+default-run = "relicsift"
+description = "Conservative, explainable offline HSR relic analysis"
+license = "MIT"
+repository = "https://github.com/sevtxq/RelicSift"
+homepage = "https://github.com/sevtxq/RelicSift"
+readme = "README.md"
+keywords = ["hsr", "relics", "egui", "offline", "desktop"]
+categories = ["gui", "games"]
+publish = false
+
+[features]
+default = ["desktop"]
+desktop = ["dep:eframe", "dep:rfd"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["arbitrary_precision"] }
+sha2 = "0.10"
+thiserror = "2"
+time = { version = "0.3", features = ["formatting", "parsing"] }
+eframe = { version = "0.33", default-features = false, features = ["default_fonts", "glow", "wayland", "x11"], optional = true }
+rfd = { version = "0.15", optional = true }
+
+[[bin]]
+name = "relicsift"
+path = "src/main.rs"
+required-features = ["desktop"]
+
+[[bin]]
+name = "sync_rules"
+path = "src/bin/sync_rules.rs"
+
+[[bin]]
+name = "analyze"
+path = "src/bin/analyze.rs"
+
+[profile.release]
+lto = "thin"
+strip = true
+
+[profile.dev]
+debug = 0
+incremental = false
+
+[profile.test]
+debug = 0
+incremental = false
