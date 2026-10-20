@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/173185ed-3b03-4e11-8e67-30436fa3cf98">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/26e5455b-42ef-4deb-8e3e-4d78115ab6b6">
+    <img src="https://github.com/user-attachments/assets/26e5455b-42ef-4deb-8e3e-4d78115ab6b6" alt="RelicSift" width="640">
+  </picture>
+</p>
+
 # RelicSift
 
 A conservative **Honkai: Star Rail** relic analyzer. Local, offline, and no game access.
